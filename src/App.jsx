@@ -17,35 +17,35 @@ export default function App(){
   return(
     <>
       <main>
-        <section className="flex flex-col px-10  items-center justify-center overflow-hidden">
+        <section id="Home" className="flex flex-col px-10  items-center justify-center overflow-hidden">
           <NavBar />
           <HeroSection />
         </section>
-         <section className="flex flex-col px-10 items-center justify-center overflow-hidden">
+         <section id="about" className="flex flex-col px-10 items-center justify-center overflow-hidden">
           <About />
         </section>
-         <section className="flex flex-col px-10 mt-20 items-center justify-center overflow-hidden">
+         <section id="corevalues" className="flex flex-col px-10 mt-20 items-center justify-center overflow-hidden">
           <CoreValues />
         </section>
-         <section className="flex flex-col px-10 mt-20 items-center justify-center overflow-hidden">
+         <section id="learn" className="flex flex-col px-10 mt-20 items-center justify-center overflow-hidden">
           <Learn />
         </section>
-         <section className="flex flex-col px-10 mt-20 items-center justify-center overflow-hidden">
+         <section id="whychooseus" className="flex flex-col px-10 mt-20 items-center justify-center overflow-hidden">
           <WhyChooseUs />
         </section>
-         <section className="flex flex-col px-10 mt-20 items-center justify-center overflow-hidden">
+         <section id="programs" className="flex flex-col px-15 mt-20 items-center justify-center overflow-hidden">
           <Programs />
         </section>
          {/* <section className="flex flex-col px-10 mt-20 items-center justify-center overflow-hidden">
           <CohortJourney />
         </section> */}
-         <section className="flex flex-col px-10 mt-20 items-center justify-center overflow-hidden">
+         <section id="TestimonialsSection" className="flex flex-col px-10 mt-20 items-center justify-center overflow-hidden">
           <TestimonialsSection />
         </section>
-         <section className="flex flex-col px-10 mt-20 items-center justify-center overflow-hidden">
+         <section id="thefounder" className="flex flex-col px-10 mt-20 items-center justify-center overflow-hidden">
           <TheFounder />
         </section>
-         <section className="flex flex-col px-10 mt-20 items-center justify-center overflow-hidden">
+         <section id="contact" className="flex flex-col px-10 mt-20 items-center justify-center overflow-hidden">
           <ContactSupport />
         </section>
          <section className="flex flex-col px-10 mt-20 items-center justify-center overflow-hidden">

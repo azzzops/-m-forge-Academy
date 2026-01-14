@@ -31,7 +31,7 @@ const tracks = [
     icon: TrendingUp,
     title: "On-Chain Trading & Analytics",
     description:
-      "Read market behavior through on-chain data and develop informed trading strategies.",
+      "Read market behavior through on chain data and develop informed trading strategies.",
   },
   {
     icon: BarChart3,
@@ -69,7 +69,7 @@ export default function Learn() {
         <p className="max-w-140 text-[18px] text-primary-light">
           At Ìmòforge Academy, we prepare builders, analysts, and traders for the
           future of decentralized technology through structured learning,
-          hands-on projects, and real-world exposure.
+          hands on projects, and real world exposure.
         </p>
       </div>
 

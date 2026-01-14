@@ -35,7 +35,7 @@ export default function TheFounder() {
           {/* Bio */}
           <p className="text-[16px] leading-relaxed text-primary-light max-w-lg">
             Waliullahi is passionate about building technology, training, and
-            connecting builders worldwide—empowering skilled individuals to
+            connecting builders worldwide empowering skilled individuals to
             shape the decentralized future.
           </p>
 

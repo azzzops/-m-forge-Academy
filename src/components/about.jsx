@@ -14,12 +14,12 @@ export default function About() {
         <div className="flex flex-col gap-3 glass-card md:p-8 p-3 rounded-2xl">
           <h1 className="text-chart-2 text-xl font-bold">Who We Are</h1>
           <p className="max-w-140 text-[16px] text-muted-foreground">
-            Ìmòforge Academy is a global Web3 and DeFi deep-tech education hub
+            Ìmòforge Academy is a global Web3 and DeFi deep tech education hub
             focused on blockchain engineering, DeFi tool and infrastructure
-            development, Web3 security, and on-chain trading & market analytics.
+            development, Web3 security, and on chain trading & market analytics.
             We train and connect learners from Africa and around the world
-            through hands-on, project-driven programs, real-world applications,
-            and one of the fastest-growing Web3 alumni networks—empowering
+            through hands on, project driven programs, real world applications,
+            and one of the fastest growing Web3 alumni networks empowering
             graduates to build, trade, secure, and scale the decentralized
             future.
           </p>
@@ -31,7 +31,7 @@ export default function About() {
             </div>
             <h1 className="text-sidebar-primary font-bold text-xl">Our Vision</h1>
             <p className="text-muted-foreground text-[16px]">
-              To be the world's leading deep-tech Web3 and DeFi academy,
+              To be the world's leading deep tech Web3 and DeFi academy,
               empowering builders, innovators, and analysts across Africa and
               globally to shape the decentralized future.
             </p>
@@ -43,7 +43,7 @@ export default function About() {
             <h1 className="text-sidebar-primary font-bold text-xl">Our Mission</h1>
             <p className="text-muted-foreground text-[16px]">
               To train, mentor, and connect learners from Africa and around the
-              world through hands-on, project-driven blockchain, DeFi, security,
+              world through hands on, project driven blockchain, DeFi, security,
               and trading programs, while cultivating one of the fastest-growing
               global Web3 alumni networks.
             </p>

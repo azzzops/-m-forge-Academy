@@ -3,12 +3,12 @@ import { Menu, X } from "lucide-react";
 import Imo from "../assets/grok_1767654184534.jpg";
 
 const links = [
-  { name: "About", href: "#" },
-  { name: "Curriculum", href: "#" },
-  { name: "Cohort", href: "#" },
-  { name: "Alumni", href: "#" },
-  { name: "Founder", href: "#" },
-  { name: "Contact", href: "#" },
+  { name: "About", href: "#about" },
+  { name: "Curriculum", href: "#learn" },
+  { name: "Cohort", href: "#programs" },
+  { name: "Alumni", href: "#TestimonialsSection" },
+  { name: "Founder", href: "#thefounder" },
+  { name: "Contact", href: "#contact" },
 ];
 
 export default function NavBar() {
@@ -44,7 +44,7 @@ export default function NavBar() {
             </a>
           ))}
           <a
-            href="#"
+            href="https://t.me/+BN_iOjD8s2BhZjZk"
             className="p-3 border-[3px] rounded-2xl glass-card-2 text-och hover:scale-105 transition-transform"
           >
             Join Waitlist
@@ -78,7 +78,7 @@ export default function NavBar() {
             ))}
             <li>
               <a
-                href="#"
+                href="https://t.me/+BN_iOjD8s2BhZjZk"
                 className="block p-3 border-[3px] rounded-2xl glass-card-2 text-och text-center hover:scale-105 transition-transform"
                 onClick={() => setMobileOpen(false)}
               >

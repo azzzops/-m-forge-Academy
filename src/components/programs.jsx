@@ -26,13 +26,13 @@ const Achievements = [
 const GraduatesReceive = [
   "Certificate of Completion",
   "Practical Web3 skills",
-  "Portfolio-ready experience",
+  "Portfolio ready experience",
   "Lifetime alumni access",
 ];
 
 export default function Programs() {
   return (
-    <section className="w-full">
+    <section className="w-full px-20">
       {/* Section header */}
       <div className="mb-14 text-center">
         <p className="text-sm font-semibold tracking-widest text-chart-2">
@@ -57,7 +57,7 @@ export default function Programs() {
               Magnum Ìmò 1.0
             </h3>
             <p className="text-sm text-muted-foreground">
-              First Cohort — 2 weeks of intensive Web3 training
+              First Cohort 2 weeks of intensive Web3 training
             </p>
           </div>
 
@@ -132,7 +132,7 @@ export default function Programs() {
                 Magnum Ìmò 2.0
               </h3>
               <p className="text-sm text-muted-foreground">
-                2nd Cohort — 12 weeks of hands-on, project-driven learning
+                2nd Cohort 12 weeks of hands on, project driven learning
               </p>
             </div>
 
@@ -140,8 +140,8 @@ export default function Programs() {
               {[
                 "Build and deploy live blockchain projects",
                 "Develop advanced DeFi tools",
-                "Trade on-chain with real market data",
-                "Join a fast-growing global alumni network",
+                "Trade on chain with real market data",
+                "Join a fast growing global alumni network",
               ].map((item) => (
                 <li key={item} className="flex gap-3">
                   <CheckCircle className="h-4 w-4 text-chart-2 mt-0.5" />
@@ -151,7 +151,7 @@ export default function Programs() {
             </ul>
 
             <button className="mt-4 cursor-pointer inline-flex items-center justify-center gap-2 rounded-xl px-5 py-3 text-sm font-semibold glass-card">
-              Join the Waitlist
+              <a href="https://t.me/+BN_iOjD8s2BhZjZk">Join the Waitlist</a>
               <ArrowRight className="h-4 w-4" />
             </button>
           </div>

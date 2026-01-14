@@ -13,8 +13,8 @@ export default function Footer() {
               Ìmòforge Academy
             </h2>
             <p className="text-[16px] text-muted-foreground leading-relaxed">
-              Empowering builders worldwide with hands-on Web3 programs,
-              real-world projects, and a global alumni network.
+              Empowering builders worldwide with hands on Web3 programs,
+              real world projects, and a global alumni network.
             </p>
           </div>
 

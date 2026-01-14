@@ -20,7 +20,7 @@ export default function ContactSupport() {
           </h2>
           <p className="max-w-140 mx-auto text-[16px] text-muted-foreground">
             We’re always open to questions, conversations, and meaningful
-            connections. Reach out anytime — we’re here to support your journey.
+            connections. Reach out anytime we’re here to support your journey.
           </p>
         </div>
 
@@ -70,7 +70,7 @@ export default function ContactSupport() {
               {[
                 {
                   name: "X (Twitter)",
-                  href: "https://example.com/x",
+                  href: "https://x.com/Imoforge_Acad",
                   icon: Twitter,
                 },
                 {

@@ -10,23 +10,23 @@ export default function HeroSection() {
           <div>
             <Network className="h-5 w-5 text-chart-2/80" />
           </div>
-          <h1>Magnum Ìmò 2.0 — Cohort Starting February 2026.</h1>
+          <h1>Magnum Ìmò 2.0 Cohort Starting 2nd February, 2026.</h1>
         </div>
         <div className="flex md:flex-row flex-col-reverse gap-0 md:gap-20 ">
             <div className="flex flex-col gap-10 md:gap-9">
-                <p className="max-w-130 text-center text-[30px] font-bold md:text-[45px] md:leading-tight">
+                <p className="max-w-130 text-center mx-auto text-[30px] font-bold md:text-[45px] md:leading-tight">
                     <span className="text-chart-2">Connecting Builders.</span> Empowering the Decentralized Future.
 
                 </p>
-                <h1 className="text-[18px] text-center max-w-150 text-primary">
+                <h1 className="text-[18px] text-center mx-auto p-4 max-w-140 text-primary">
                   Ìmòforge Academy is a global Web3 & DeFi
                   <span className=""> deep-tech academy</span> training
                   builders, <span className="">analysts</span>, traders, and <span className="">security professionals</span> through
-                  hands-on, project-driven learning.
+                  hands on, project driven learning.
                 </h1>
                 <div className="flex flex-col justify-center md:flex-row items-center  gap-4">
-                <a href="#" className="p-3 bg-sidebar-primary text-cta text-xl rounded-xl">Join the Waitlist</a>
-                <a href="#" className="border border-primary-ring/70 rounded-xl glass-card-2 p-3">View Curriculum</a>
+                <a href="https://t.me/+BN_iOjD8s2BhZjZk" className="p-3 bg-sidebar-primary text-cta text-xl rounded-xl">Join the Waitlist</a>
+                <a href="#learn" className="border border-primary-ring/70 rounded-xl glass-card-2 p-3">View Curriculum</a>
                 </div>
             </div>
              <div className="translate-y-0 md:-translate-y-15 w-100 h-100 md:w-150 md:h-150 mask-radial-from-20% overflow-hidden mask-radial-at-top opacity-700 mask-image:radial-gradient(circle_at_top,black_40%,transparent_80%)

@@ -10,7 +10,7 @@ export default function HeroSection() {
           <div>
             <Network className="h-5 w-5 text-chart-2/80" />
           </div>
-          <h1>Magnum Ìmò - 2.0 Cohort Starting 2nd February, 2026.</h1>
+          <h1>Magnum Ìmò 2.0 - Cohort Starting 2nd February, 2026.</h1>
         </div>
         <div className="flex md:flex-row flex-col-reverse gap-0 md:gap-20 ">
             <div className="flex flex-col gap-10 md:gap-9">

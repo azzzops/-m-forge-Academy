@@ -16,7 +16,7 @@ export default function About() {
         {/* Who We Are */}
         <div className="flex flex-col gap-3 glass-card md:p-8 p-3 rounded-2xl">
           <h1 className="text-chart-2 text-xl font-bold">Who We Are</h1>
-            <p className="max-w-140 text-[16px] text-muted-foreground">
+          <p className="max-w-140 text-[16px] text-muted-foreground">
             Ìmòforge Academy is a global Web3 and DeFi deep tech education hub
             focused on blockchain engineering, DeFi tool and infrastructure
             development, Web3 security, and on chain trading & market analytics.
@@ -32,18 +32,25 @@ export default function About() {
         <div className="flex flex-col gap-3 glass-card md:p-8 p-3 rounded-2xl">
           <h1 className="text-chart-2 text-xl font-bold">Àkàńó Labs</h1>
           <p className="max-w-140 text-[16px] text-muted-foreground">
-            Àkàńó Labs operates at the intersection of research, experimentation,
-            and real world building. As an innovation lab, it focuses on
-            designing, developing, and studying technology products that
-            emphasize security, data integrity, and long term relevance across
-            Web2 and Web3 ecosystems.
+            Àkàńó Labs is a technology and blockchain focused innovation lab
+            dedicated to education, research, and the development of secure,
+            data-driven products across Web2 and Web3 technologies. We combine
+            learning, experimentation, and real world building to prepare
+            individuals for the digital and decentralized future.
           </p>
           <p className="max-w-140 text-[16px] text-muted-foreground">
-            Founded by Oyelude Waliullahi, Founder and Director, Àkàńó Labs is led
-            with a research driven mindset. Oyelude is a blockchain data analyst,
-            Web3 developer, and researcher committed to building impactful
-            technology products and education systems that bridge theory and
-            practice.
+            Àkàńó Labs was founded by Oyelude Waliullahi, who serves as the
+            Founder and Director. He is a blockchain data analyst, Web3
+            developer, and researcher focused on building impactful technology
+            products and education systems.
+          </p>
+          <p className="max-w-140 text-[16px] text-muted-foreground">
+            Àkàńó Labs operates as both: An innovation lab that builds and
+            researches technology products An education ecosystem through its
+            academy and training programs Ìmòforge Academy is the official
+            education arm of Àkàńó Labs, focused on structured learning,
+            mentorship, and hands-on training in Web2, Web3, blockchain
+            development, data analytics, DeFi, and digital finance.
           </p>
         </div>
 

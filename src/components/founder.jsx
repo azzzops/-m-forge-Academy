@@ -10,7 +10,7 @@ export default function TheFounder() {
           <div className="relative">
             <img
               src={Walilullahi}
-              alt="Oyelude Waliullahi, Founder of Ìmòforge Academy"
+              alt="Oyelude Waliullahi, Founder of Àkàńó Labs"
               className="
                 w-100 h-100 object-cover rounded-2xl
                 border border-border
@@ -27,7 +27,7 @@ export default function TheFounder() {
               Oyelude Waliullahi
             </h2>
             <p className="text-sm text-muted-foreground leading-relaxed max-w-md">
-              Founder & Director, Ìmòforge Academy · Blockchain Data Analyst,
+              Founder & Director, Àkàńó Labs · Blockchain Data Analyst,
               DeFi Tool Developer, Trader, and Cybersecurity Student
             </p>
           </div>

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import Imo from "../assets/grok_1767654184534.jpg";
+import Imo from "../assets/image.jpg";
 
 const links = [
   { name: "About", href: "#about" },

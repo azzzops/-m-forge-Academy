@@ -47,7 +47,10 @@ export default function About() {
           <p className="max-w-140 text-[16px] text-muted-foreground">
             Àkàńó Labs operates as both: An innovation lab that builds and
             researches technology products An education ecosystem through its
-            academy and training programs Ìmòforge Academy is the official
+            academy and training programs.
+          </p>
+          <p className="max-w-140 text-[16px] text-muted-foreground">
+            Ìmòforge Academy is the official
             education arm of Àkàńó Labs, focused on structured learning,
             mentorship, and hands-on training in Web2, Web3, blockchain
             development, data analytics, DeFi, and digital finance.

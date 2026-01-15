@@ -46,7 +46,7 @@ export default function Programs() {
       <div className="grid-1 gap-10 mx-auto justify-center">
         {/* Completed — Magnum Ìmò 1.0 */}
         <div className="glass-card-2 rounded-2xl px-8 py-8 flex flex-col gap-6 opacity-90">
-          <div className="text-sm font-semibold text-muted-foreground">
+          <div className="text-sm font-semibold text-chart-2">
             Completed
           </div>
 

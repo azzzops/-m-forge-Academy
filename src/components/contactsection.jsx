@@ -75,17 +75,17 @@ export default function ContactSupport() {
                 },
                 {
                   name: "TikTok",
-                  href: "https://example.com/tiktok",
+                  href: "https://www.tiktok.com/@imoforge_acad?_r=1&_t=ZS-934FVgaYyzi",
                   icon: MessageCircle,
                 },
                 {
                   name: "Instagram",
-                  href: "https://example.com/instagram",
+                  href: "https://www.instagram.com/imoforge_acad?igsh=dmk2ZnpldW9jeGZq",
                   icon: Instagram,
                 },
                 {
                   name: "Telegram",
-                  href: "https://example.com/telegram",
+                  href: "https://t.me/imoforge_Acad ",
                   icon: Send,
                 },
               ].map(({ name, href, icon: Icon }) => (

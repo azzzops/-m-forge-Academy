@@ -79,10 +79,10 @@ export default function Footer() {
             {/* Socials */}
             <div className="flex flex-wrap gap-4 mt-2">
               {[
-                { name: "X (Twitter)", href: "https://example.com/x", icon: Twitter },
-                { name: "Instagram", href: "https://example.com/instagram", icon: Instagram },
-                { name: "TikTok", href: "https://example.com/tiktok", icon: Send },
-                { name: "Telegram", href: "https://example.com/telegram", icon: Send },
+                { name: "X (Twitter)", href: "https://x.com/Imoforge_Acad", icon: Twitter },
+                { name: "Instagram", href: "https://www.instagram.com/imoforge_acad?igsh=dmk2ZnpldW9jeGZq", icon: Instagram },
+                { name: "TikTok", href: "https://www.tiktok.com/@imoforge_acad?_r=1&_t=ZS-934FVgaYyzi", icon: Send },
+                { name: "Telegram", href: "https://t.me/imoforge_Acad ", icon: Send },
               ].map(({ name, href, icon: Icon }) => (
                 <a
                   key={name}

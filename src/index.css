@@ -127,7 +127,7 @@ html{
     align-items: start;
 
     @media(width <= 48rem){
-        grid-template-columns: repeat(1, 400px);
+        grid-template-columns: repeat(1, 350px);
     }
 }
 

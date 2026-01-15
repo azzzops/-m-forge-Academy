@@ -20,7 +20,7 @@ export default function Footer() {
 
           {/* Navigation */}
           <nav aria-label="Footer Navigation" className="flex flex-col gap-2">
-            <h3 className="text-lg font-semibold text-sidebar-primary">
+            <h3 className="text-lg font-semibold text-chart-2">
               Navigate
             </h3>
             <ul className="flex flex-col gap-1 text-[15px] text-muted-foreground">

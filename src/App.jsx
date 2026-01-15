@@ -9,7 +9,7 @@ import Programs from "./components/programs";
 import TestimonialsSection from "./components/testimonialsection";
 import TheFounder from "./components/founder";
 import ContactSupport from "./components/contactsection";
-
+import FAQSection from "./components/faq";
 import Footer from "./components/footer";
 import { FootprintsIcon } from "lucide-react";
 
@@ -44,6 +44,9 @@ export default function App(){
         </section>
          <section id="thefounder" className="flex flex-col px-10 mt-20 items-center justify-center overflow-hidden">
           <TheFounder />
+        </section>
+         <section id="contact" className="flex flex-col px-10 mt-20 items-center justify-center overflow-hidden">
+          <FAQSection />
         </section>
          <section id="contact" className="flex flex-col px-10 mt-20 items-center justify-center overflow-hidden">
           <ContactSupport />

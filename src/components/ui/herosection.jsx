@@ -25,7 +25,7 @@ export default function HeroSection() {
                   hands on, project driven learning.
                 </h1>
                 <div className="flex flex-col justify-center md:flex-row items-center  gap-4">
-                <a href="https://t.me/+BN_iOjD8s2BhZjZk" className="p-3 bg-sidebar-primary text-cta text-xl rounded-xl">Join the Waitlist</a>
+                <a href="https://t.me/+BN_iOjD8s2BhZjZk" className="p-3 font-bold bg-sidebar-primary text-cta text-xl rounded-xl">Join the Waitlist</a>
                 <a href="#learn" className="border border-primary-ring/70 rounded-xl glass-card-2 p-3">View Curriculum</a>
                 </div>
             </div>

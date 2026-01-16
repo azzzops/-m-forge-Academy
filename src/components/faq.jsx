@@ -174,8 +174,8 @@ export default function FAQSection() {
   const toggleFaq = (id) => setActiveId(activeId === id ? null : id);
 
   return (
-    <section className="bg-background md:px-12 py-16">
-      <div className="mx-auto max-w-5xl">
+    <section className="bg-background">
+      <div className="mx-auto"> 
         {/* Header */}
         <div className="mb-12 flex items-center justify-center gap-3">
           <HelpCircle className="h-6 w-6 text-foreground/80" />
@@ -185,14 +185,14 @@ export default function FAQSection() {
         </div>
 
         {/* FAQ List */}
-        <div className="space-y-4 w-full">
+        <div className=" space-y-4">
           {faqs.map((faq) => {
             const isOpen = activeId === faq.id;
 
             return (
               <div
                 key={faq.id}
-                className="w-full max-w-full md:max-w-3xl mx-auto rounded-2xl border border-border bg-card/80 "
+                className="rounded-2xl mx-auto max-w-250 border border-border bg-card/80 "
               >
                 {/* Question Button */}
                 <button
@@ -200,11 +200,11 @@ export default function FAQSection() {
                   className="flex w-full items-center justify-between gap-4 px-6 py-5 text-left"
                   aria-expanded={isOpen}
                 >
-                  <span className="text-base md:text-lg font-medium text-card-foreground break-words">
+                  <span className="text-base md:text-lg font-medium text-card-foreground wrap-break-word">
                     {faq.question}
                   </span>
 
-                  <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-border text-muted-foreground">
+                  <span className="flex h-8 w-8 items-center justify-center rounded-full border border-border text-muted-foreground">
                     {isOpen ? <Minus className="h-4 w-4" /> : <Plus className="h-4 w-4" />}
                   </span>
                 </button>
@@ -226,15 +226,17 @@ export default function FAQSection() {
                       }}
                       className="overflow-hidden"
                     >
-                      <div className="px-6 pb-6 text-sm md:text-base leading-relaxed text-muted-foreground space-y-3 break-words">
-                        {Array.isArray(faq.answer)
-                          ? faq.answer.map((text, i) => <p key={i}>{text}</p>)
-                          : <p>{faq.answer}</p>}
+                      <div className="px-6 pb-6 w-full text-sm md:text-base leading-relaxed text-muted-foreground space-y-3 wrap-break-word">
+                        <p>
+                            {Array.isArray(faq.answer)
+                              ? faq.answer.map((text, i) => <p key={i}>{text}</p>)
+                              : <p>{faq.answer}</p>}
+                        </p>    
                       </div>
                     </motion.div>
                   )}
                 </AnimatePresence>
-              </div>
+            </div>
             );
           })}
         </div>

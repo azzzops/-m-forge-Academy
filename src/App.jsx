@@ -45,7 +45,7 @@ export default function App(){
          <section id="thefounder" className="flex flex-col px-10 mt-20 items-center justify-center overflow-hidden">
           <TheFounder />
         </section>
-         <section id="contact" className="flex flex-col px-10 mt-20 items-center justify-center overflow-hidden">
+         <section id="contact" className="flex flex-col  px-5 mt-20 overflow-hidden">
           <FAQSection />
         </section>
          <section id="contact" className="flex flex-col px-10 mt-20 items-center justify-center overflow-hidden">

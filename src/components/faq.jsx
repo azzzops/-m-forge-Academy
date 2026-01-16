@@ -204,7 +204,7 @@ export default function FAQSection() {
                     {faq.question}
                   </span>
 
-                  <span className="flex h-8 w-8 items-center justify-center rounded-full border border-border text-muted-foreground">
+                  <span className="flex p-3 items-center justify-center rounded-full border border-border text-muted-foreground">
                     {isOpen ? <Minus className="h-4 w-4" /> : <Plus className="h-4 w-4" />}
                   </span>
                 </button>
@@ -227,11 +227,11 @@ export default function FAQSection() {
                       className="overflow-hidden"
                     >
                       <div className="px-6 pb-6 w-full text-sm md:text-base leading-relaxed text-muted-foreground space-y-3 wrap-break-word">
-                        <p>
+                        
                             {Array.isArray(faq.answer)
                               ? faq.answer.map((text, i) => <p key={i}>{text}</p>)
                               : <p>{faq.answer}</p>}
-                        </p>    
+                      
                       </div>
                     </motion.div>
                   )}

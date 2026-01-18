@@ -118,7 +118,7 @@ const faqs = [
     id: 13,
     question: "When does registration and payment open and close?",
     answer: [
-      "Opens: 19 January, 2026.",
+      "Opens: 21 January, 2026.",
       "Closes: 1 February, 2026.",
       "Admission is via the Academy Waitlist only."
     ],

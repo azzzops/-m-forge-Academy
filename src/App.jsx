@@ -11,6 +11,7 @@ import TheFounder from "./components/founder";
 import ContactSupport from "./components/contactsection";
 import FAQSection from "./components/faq";
 import Footer from "./components/footer";
+import GratiaVaultSection from "./components/workshop";
 import { FootprintsIcon } from "lucide-react";
 
 export default function App(){
@@ -33,9 +34,12 @@ export default function App(){
          <section id="whychooseus" className="flex flex-col px-10 mt-20 items-center justify-center overflow-hidden">
           <WhyChooseUs />
         </section>
-         <section id="programs" className="flex flex-col px-15 mt-20 items-center justify-center overflow-hidden">
-          <Programs />
+        <section id="workshop-details" className="flex flex-col px-10 mt-20 items-center justify-center overflow-hidden">
+          <GratiaVaultSection />
         </section>
+         {/* <section id="programs" className="flex flex-col px-15 mt-20 items-center justify-center overflow-hidden">
+          <Programs />
+        </section> */}
          {/* <section className="flex flex-col px-10 mt-20 items-center justify-center overflow-hidden">
           <CohortJourney />
         </section> */}

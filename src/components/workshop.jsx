@@ -67,6 +67,8 @@
     export default function GratiaVaultSection() {
     return (
         <section className="relative py-28 px-6 md:px-12">
+            
+
         {/* Background glow */}
         <div className="absolute inset-0 -z-10 flex justify-center">
             <div className="w-175 h-100 bg-primary-light opacity-20 blur-3xl rounded-full" />
@@ -120,6 +122,8 @@
 
             </div>
             </motion.div>
+
+            <div className="mb-5 mx-auto text-center text-3xl font-semibold"><h1>What You’ll Learn at Ìmòforge Gratia Vault - 2026 Edition</h1></div>
 
             {/* Curriculum Grid */}
             <motion.div

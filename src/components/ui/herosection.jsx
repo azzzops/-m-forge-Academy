@@ -1,63 +1,74 @@
-import { Network } from "lucide-react";
-import ring from "../../assets/grok_1767653137638.jpg"
-import excited from "../../assets/file_00000000a61c724698afebc981bd5109.png"
-import ranss from "../../assets/ranss.png"
+import { Network, ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
+
 export default function HeroSection() {
   return (
-    <>
-      <div className="relative flex flex-col gap-10 md:gap-20 py-15 justify-center items-center mt-14">
-        {/* <div className="absolute z-[-2] left-[50%] top-[5%] w-100 h-100 blur-3xl"><img className="w-full h-full object-cover object-center" src={ring} alt="" /></div> */}
-         <motion.div
-      initial={{ opacity: 0, y: -20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.8, ease: "easeOut" }}
-      className="flex flex-col md:flex-row items-center gap-4 md:gap-6 w-fit z-10"
-    >
-      {/* Banner */}
+    <section className="relative w-full py-28 px-6">
+
       <motion.div
-        animate={{ y: [0, -5, 0] }}
-        transition={{ repeat: Infinity, duration: 1.2 }}
-        className="flex items-center gap-2 text-[12px] md:text-sm glass-card w-fit rounded-full p-2 px-4 bg-for-section shadow-lg"
+        initial={{ opacity: 0, y: 12 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        className="max-w-4xl mx-auto text-center flex flex-col items-center"
       >
-        <Network className="h-5 w-5 text-chart-2/80" />
-        <h1 className="text-chart-2 font-semibold whitespace-nowrap">
-          Ìmòforge Gratia Vault – 2026 Edition
+
+        {/* Vault Announcement */}
+
+        <a
+          href="#workshop-details"
+          className="mb-8 text-sm text-neutral-600 border border-neutral-200 rounded-full px-4 py-1.5 flex items-center gap-2 hover:bg-neutral-100 transition"
+        >
+          Introducing the Ìmòforge Gratia Vault — 2026 Edition
+          <ArrowRight className="h-3.5 w-3.5" />
+        </a>
+
+        {/* Eyebrow */}
+
+        <div className="flex items-center gap-2 text-sm text-neutral-500 mb-5">
+          <Network className="h-4 w-4 text-chart-2" />
+          <span className="font-medium tracking-wide">
+            Ìmòforge Academy
+          </span>
+        </div>
+
+        {/* Headline */}
+
+        <h1 className="text-4xl md:text-5xl font-bold leading-tight text-neutral-900 max-w-3xl">
+          <span className="text-chart-2">Connecting Builders.</span>
+          <br />
+          Empowering the Decentralized Future.
         </h1>
+
+        {/* Description */}
+
+        <p className="mt-6 text-lg text-neutral-600 max-w-2xl">
+          Ìmòforge Academy is a global Web3 and DeFi deep-tech academy
+          training builders, analysts, traders, and security professionals
+          through hands-on, project-driven learning.
+        </p>
+
+        {/* CTAs */}
+
+        <div className="mt-10 flex flex-col sm:flex-row gap-4">
+
+          <a
+            href="https://t.me/+BN_iOjD8s2BhZjZk"
+            className="px-6 py-3 bg-neutral-900 text-white rounded-lg font-semibold text-sm hover:bg-neutral-800 transition"
+          >
+            Join the Waitlist
+          </a>
+
+          <a
+            href="#learn"
+            className="px-6 py-3 border border-neutral-300 rounded-lg text-sm font-semibold text-neutral-700 hover:bg-neutral-100 transition"
+          >
+            View Curriculum
+          </a>
+
+        </div>
+
       </motion.div>
 
-      {/* CTA Button */}
-      <motion.a
-        href="#workshop-details"
-        initial={{ scale: 0.9, opacity: 0 }}
-        animate={{ scale: 1, opacity: 1 }}
-        transition={{ type: "spring", stiffness: 120, damping: 10 }}
-        whileHover={{ scale: 1.1, rotate: 1, boxShadow: "0 0 15px var(--chart-2)" }}
-        whileTap={{ scale: 0.95 }}
-        className="inline-block px-6 py-3 bg-chart-2 text-primary-foreground font-bold rounded-full shadow-lg text-center"
-      >
-        View Workshop Details
-      </motion.a>
-    </motion.div>
-        <div className="flex md:flex-row flex-col-reverse gap-0 md:gap-20 ">
-            <div className="flex flex-col gap-10 md:gap-9">
-                <p className="max-w-200 text-center mx-auto text-[30px] font-bold md:text-[45px] md:leading-tight">
-                    <span className="text-chart-2">Connecting Builders.</span> Empowering the Decentralized Future.
-
-                </p>
-                <h1 className="text-[18px] text-center mx-auto p-4 max-w-200 text-primary">
-                  Ìmòforge Academy is a global Web3 & DeFi
-                  <span className=""> deep-tech academy</span> training
-                  builders, <span className="">analysts</span>, traders, and <span className="">security professionals</span> through
-                  hands on, project driven learning.
-                </h1>
-                <div className="flex flex-col justify-center md:flex-row items-center  gap-4">
-                <a href="https://t.me/+BN_iOjD8s2BhZjZk" className="p-3 font-bold bg-sidebar-primary text-cta text-xl rounded-xl">Join the Waitlist</a>
-                <a href="#learn" className="border border-primary-ring/70 rounded-xl glass-card-2 p-3">View Curriculum</a>
-                </div>
-            </div>
-        </div>
-      </div>
-    </>
+    </section>
   );
 }

@@ -115,9 +115,12 @@
                 </div>
 
                 <div>
-                <button className="px-8 py-3 rounded-xl bg-primary text-white font-medium hover:opacity-90 transition">
+                <a href="https://t.me/imoforge_waitlist" target="_blank" className="block cursor-pointer px-8 py-3 rounded-xl bg-primary text-white font-medium hover:opacity-90 transition">
+              
                     Reserve a Seat
-                </button>
+            
+                </a>
+                
                 </div>
 
             </div>

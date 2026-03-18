@@ -37,7 +37,7 @@ export default function App(){
         <section id="workshop-details" className="flex flex-col px-10 mt-20 items-center justify-center overflow-hidden">
           <GratiaVaultSection />
         </section>
-         <section id="programs" className="flex flex-col px-15 mt-20 items-center justify-center overflow-hidden">
+         <section id="programs" className="flex flex-col mt-20 items-center justify-center overflow-hidden">
           <Programs />
         </section>
          {/* <section className="flex flex-col px-10 mt-20 items-center justify-center overflow-hidden">

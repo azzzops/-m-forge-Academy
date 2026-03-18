@@ -15,7 +15,7 @@ export default function HeroSection() {
         {/* Vault Announcement */}
 
       <a  href="#workshop-details"
-  className="mb-8 flex items-center gap-3 rounded-full border border-[var(--border)] bg-[var(--accent)] px-1.5 py-1.5 pr-4 transition hover:bg-[var(--secondary)] group"
+  className="mb-8 flex items-center text-nowrap gap-3 rounded-full border border-[var(--border)] bg-[var(--accent)] px-1.5 py-1.5 pr-4 transition hover:bg-[var(--secondary)] group"
 >
   {/* Badge pill */}
   <span className="rounded-full bg-[var(--primary)] px-3 py-1 text-[11px] font-semibold uppercase tracking-widest text-[var(--primary-foreground)]">
@@ -23,7 +23,7 @@ export default function HeroSection() {
   </span>
 
   {/* Label */}
-  <span className="text-sm font-medium text-[var(--foreground)]">
+  <span className="text-xs md:text-sm font-medium text-[var(--foreground)]">
     Ìmòforge Gratia Vault — 2026 Edition
   </span>
 
@@ -31,7 +31,7 @@ export default function HeroSection() {
   <span className="text-[var(--muted-foreground)]">·</span>
 
   {/* CTA text + arrow */}
-  <span className="flex items-center gap-1 text-sm font-medium text-[var(--primary)]">
+  <span className="flex items-center gap-1 text-xs md:text-sm font-medium text-[var(--primary)]">
     Learn more
     <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" />
   </span>

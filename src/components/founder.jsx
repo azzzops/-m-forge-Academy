@@ -27,7 +27,7 @@ export default function TheFounder() {
               Oyelude Waliullahi
             </h2>
             <p className="text-sm text-muted-foreground leading-relaxed max-w-md">
-              Founder & Director, Àkàńó Labs · Blockchain Data Analyst,
+              Founder & CEO, Àkàńó Labs · Blockchain Data Analyst,
               DeFi Tool Developer, Trader, and Cybersecurity Student
             </p>
           </div>

@@ -101,7 +101,7 @@
                 <div className="flex flex-wrap gap-6 text-sm text-muted-foreground">
                     <div className="flex items-center gap-2">
                     <Calendar size={16} />
-                    March 16, 2026
+                    March 30, 2026
                     </div>
                     <div className="flex items-center gap-2">
                     <Clock size={16} />
